@@ -18,7 +18,7 @@ cart.push( {itemName: itemPrice});
 
 function viewCart() {
   // write your code here
-if(cart === cart.length){
+/*if(cart === cart.length){
 for(let i = 0; i < cart.length; i++){
   var fullCart = cart.join(', ')
   return(`In your cart, you have ${fullCart}.`)
@@ -26,7 +26,7 @@ for(let i = 0; i < cart.length; i++){
   return 'shopping cart is empty.'
 }
 return cart;
-}}
+}}*/
 
 function total() {
   // write your code here
