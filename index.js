@@ -26,7 +26,7 @@ for(let i = 0; i < cart.length; i++){
   return 'shopping cart is empty.'
 }
 return cart;
-}}*/
+}}*/}
 
 function total() {
   // write your code here
