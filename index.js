@@ -11,7 +11,10 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- var itemPrice = math.random() + 100;
+var item = {};
+itemPrice = math.random() + 100;
+item[itemName] = itemPrice;
+
 cart.push( {itemName: itemPrice});
 
 }
@@ -33,14 +36,14 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+/*  // write your code here
 if (cart.hasOwnProperty(item)){
   delete cart[item];
   return cart;
 }else{
   return 'That item is not in your cart.';
 }
-
+*/
 }
 
 function placeOrder(cardNumber) {
